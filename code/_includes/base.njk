@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title or metadata.title }}</title>
+        <meta name="description" content="{{ description or metadata.description }}">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="/" class="header-link">{{ metadata.title }}</a>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/archive">Archivos</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/fermbll/" target="_blank">@fermbll</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            {{ content | safe}}
+        </main>
+        <footer class="footer">
+            <small>Coyright &copy; 2024</small>
+        </footer>
+    </body>
+</html>

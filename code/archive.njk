@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Archivos
+description: Todos los archivos creados.
+---
+<hgroup>
+    <h1>{{ title }}</h1>
+    <h2>Artículos</h2>
+</hgroup>
+<ul class="list box">
+    {% for post in collections.post %}
+    <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+    {% endfor %}
+</ul>

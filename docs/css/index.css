@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Nutrio CSS (1.0.0) | 16.09.2024 */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: #333333;
+  line-height: 1.5;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  padding-bottom: 0.5em;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+li {
+  list-style: none;
+  background-color: transparent;
+}
+
+p {
+  text-wrap: pretty;
+  padding-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Base */
+
+.header {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f5;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.header-link {
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.main {
+  padding: 1em;
+}
+
+.box {
+  --message-color: #f3f1ff;
+  --message-border: #9f75ff;
+
+  padding: 1em;
+  background-color: var(--message-color);
+  border: 1px solid var(--message-border);
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+.box > i {
+  font-style: italic;
+  background-color: inherit;
+}
+
+.box > p {
+  background-color: transparent;
+  padding: 0;
+  font-weight: 700;
+}
+
+.button {
+  --button-color: #6d6d6d;
+  --button-text: #f6f6f6;
+
+  display: inline-block;
+  background-color: var(--button-color);
+  color: var(--button-text);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+}
+
+.list > li {
+  margin-left: 1em;
+  list-style-type: disc;
+}
+
+.list > li::marker {
+  color: #333333;
+}
+
+.footer {
+  padding: 1em;
+  text-align: center;
+}

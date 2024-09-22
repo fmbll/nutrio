@@ -1,0 +1,24 @@
+{
+  "name": "nutrio",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "install": "npm install @11ty/eleventy --save-dev",
+    "start": "npx @11ty/eleventy --serve",
+    "clean": "rm -rf docs",
+    "deploy": "npx @11ty/eleventy --pathprefix=/",
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/nutrio/"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "github pages",
+    "fmbll"
+  ],
+  "author": "Fernando Méndez",
+  "license": "MIT",
+  "description": "Creando un mundo lleno de paz y tranquilidad.",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
