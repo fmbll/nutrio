@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Nutrio CSS (1.0.0) | 16.09.2024 */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  text-wrap: balance;
+  padding-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  text-wrap: pretty;
+  padding-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Base */
+
+.message {
+  --message-color: #f3f1ff;
+  --message-border: #9f75ff;
+
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5rem;
+  display: inline-block;
+  background-color: var(--message-color);
+  border: 1px solid var(--message-border);
+}
+
+.button {
+  --button-color: #6d6d6d;
+  --button-text: #f6f6f6;
+
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  color: var(--button-text);
+  background-color: var(--button-color);
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.button-link > svg {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.btn-span {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.btn-span > span > svg {
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f5;
+  flex-wrap: wrap;
+  padding: 1em;
+  gap: 2em;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+
+.nav > li > a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 1em;
+}
+
+.layout {
+  width: 100%;
+}
+
+.menu {
+  margin-left: 1em;
+}
+
+.footer {
+  border-top: 1px solid #e7e7e7;
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  p {
+    width: 50%;
+  }
+
+  .main {
+    padding: 4em;
+  }
+}

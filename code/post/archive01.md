@@ -6,6 +6,8 @@ tags: ["blog", "post"]
 date: "2024-04-11"
 ---
 
+[Regresar](/)
+
 # Pensamiento
 
 En solo pensar, que hago esto con gusto y pasión, pero también lo hago para llegar a tú corazón.
