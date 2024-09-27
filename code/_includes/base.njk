@@ -5,6 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title or metadata.title }}</title>
         <meta name="description" content="{{ description or metadata.description }}">
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:url" content="https://fmbll.github.io/nutrio/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ title or metadata.title }}">
+        <meta property="og:description" content="{{ description or metadata.description }}">
+        <meta property="og:image" content="/img/nutrio-cap.jpeg">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="fmbll.github.io">
+        <meta property="twitter:url" content="https://fmbll.github.io/nutrio/">
+        <meta name="twitter:title" content="{{ title or metadata.title}}">
+        <meta name="twitter:description" content="{{ title or metadata.description }}">
+        <meta name="twitter:image" content="/img/nutrio-cap.jpeg">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
