@@ -1,7 +1,7 @@
 ---
 layout: "base.njk"
 title: El beso
-description: Leer informacion del archivo
+description: Leer información del archivo
 tags: ["blog", "post"]
 date: "2024-09-27"
 ---
