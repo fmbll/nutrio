@@ -1,5 +1,5 @@
-# Nutrio _v1.0.0_
+# Nutrio Site
 
-> ¡Hola!, 🖐🏻 el sitio es basado en hechos reales.
+¡Hola!, 🖐🏻 el sitio es basado en hechos reales.
 
-![Nutrio - Captur](nutrio-cap.jpeg)
+![Nutrio - Captur](screenshot.png)
